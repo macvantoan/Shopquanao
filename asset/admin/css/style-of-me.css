@@ -1,0 +1,18 @@
+.error-lg{
+	color: red;
+    font-weight: bold;
+}
+.add-user {
+	margin-top:12px;
+	margin-bottom: 12px; 
+}
+.add-user-cl {
+	font-weight: bold;
+	font-size: 18px;
+}
+.input_t {
+	 margin: 10px 0 10px 0px;
+    padding: 2px;
+    width: 40%;
+    border: solid 1px #4CB1CA;
+}

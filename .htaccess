@@ -1,0 +1,6 @@
+ErrorDocument 404 /shopdemo/not_found.php
+
+RewriteEngine on
+RewriteRule ^details-product-([0-9]+)$ details.php?id=$1
+
+RewriteRule ^([^/\.]+)/?$ $1.php  [L,QSA]
